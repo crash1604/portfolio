@@ -3,8 +3,9 @@
 
     .sections {
         width: 100%;
+        // opacity: 0. ;
         height: calc(100vh - 70px);
-        background-color: lightgrey;
+        // background-color: lightgrey;
         position: relative;
         top: 70px;
         scroll-behavior: smooth;
@@ -15,7 +16,7 @@
         }
 
         // '> *' means for each element inside sections class
-        > *{
+        > * {
             width: 100vw;
             height: calc(100vh - 70px);
             scroll-snap-align: start;

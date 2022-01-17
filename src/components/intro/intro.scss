@@ -1,3 +1,10 @@
+@import "../../global.scss";
 .intro {
-    background-color: lightblue;
+    // background-color: dodgerblue;
+    color: $mainColor;
+    // opacity: 0;
+
+    .content{
+        opacity: 1 !important;
+    }
 }
