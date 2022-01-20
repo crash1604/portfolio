@@ -1,10 +1,41 @@
 @import "../../global.scss";
 .intro {
-    // background-color: dodgerblue;
     color: $mainColor;
-    // opacity: 0;
+    display: flex;
 
-    .content{
-        opacity: 1 !important;
+    .right {
+        flex: 0.5;
+        margin: 10% 10%;
+        background-color: $secondColor;
+
+        .wrapper {
+            align-items: center;
+            margin: 10px;
+            padding: 10px;
+
+            .dev{
+                color:lime;
+            }
+        }
+    }
+
+    .left {
+        flex: 0.5;
+        overflow: hidden;
+
+        .imageContainer {
+            width: 700px;
+            height: 700px;
+            background-color: $secondColor;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: right;
+
+            object {
+                width: 90%;                
+            }
+        }
     }
 }

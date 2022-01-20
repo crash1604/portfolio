@@ -9,10 +9,10 @@ export default function ParticleBG() {
                 width="300px" options={{
                         background: {
                         color: {
-                            value: "#ffffff",
+                            value: "#3D4954",
                         },
                         },
-                        fpsLimit: 69,
+                        fpsLimit: 144,
                         interactivity: {
                         events: {
                             onClick: {
@@ -78,7 +78,7 @@ export default function ParticleBG() {
                         },
                         size: {
                             random: true,
-                            value: 5,
+                            value: 9,
                         },
                         },
                         detectRetina: true,

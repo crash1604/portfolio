@@ -3,7 +3,7 @@
 .menu {
     width: 300px;
     height: 100vh;
-    background-color: $mainColor;
+    background-color: $secondColor;
     position: fixed;
     top: 0;
     right: -300px;
@@ -24,7 +24,7 @@
         list-style: none;
         font-size: 30px;
         font-weight: 300;
-        color: white;
+        color: $mainColor;
         width: 70%;
         
         li {
@@ -38,8 +38,8 @@
 
             &:hover {
                 font-weight: 500;
-                background-color: white;
-                color: $mainColor;
+                background-color: $mainColor;
+                color: $secondColor;
                 transition: all 0.75s ease;
             }
         }
