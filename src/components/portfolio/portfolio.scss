@@ -1,3 +1,84 @@
+@import "../../global.scss";
 .portfolio {
-    // background-color: azure;
-}
+        color: $mainColor;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+        .orange {color: orange;}
+
+        .container {
+            width: 70%;
+            background-color: $secondColor;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin: 10px;
+            padding: 10px;
+            scrollbar-width: none; // for firefox
+            &::-webkit-scrollbar{ //for other browsers
+                display: none;
+            }
+            
+            }
+        
+        .wrapper {
+            width: 70%;
+            background-color: $secondColor;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            scrollbar-width: none; // for firefox
+            &::-webkit-scrollbar{ //for other browsers
+                display: none;
+            }
+
+            .right{
+                    .lime {color:lime;}
+                    flex: 0.5;
+                    margin: 10% 10%;
+                    background-color: $secondColor;
+                    overflow: hidden;
+                    scrollbar-width: none; // for firefox
+                    &::-webkit-scrollbar{ //for other browsers
+                        display: none;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color:magenta;
+                    }
+                    .yellow {
+                        color: yellow;
+                    }
+                    .magenta{color: magenta;}
+                    .imageContainer {
+                            scrollbar-width: none; // for firefox
+                            &::-webkit-scrollbar{ //for other browsers
+                                display: none;
+                            }
+                            width: 200px;
+                            height: 200px;
+                            
+                            .aqua{fill: aqua;}
+                    }
+
+
+                }
+
+            .left {
+                    flex: 0.5;
+                    background-color: $secondColor;
+                    padding: 10px;
+                    margin: 10px;
+                    
+                    .magenta {color: magenta;}
+                    .aqua {color: aqua;}
+                    .lime {color: lime;}
+                    
+                }
+        }
+    }

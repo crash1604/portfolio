@@ -4,8 +4,18 @@ import { useEffect, useRef } from "react"
 
 export default function Intro() {
 
-    const texRef = useRef();
-    useEffect(() => {},[]);
+    const firstRef = useRef();
+    const nameRef = useRef();
+
+    useEffect(() => {
+        init(firstRef.current,
+        { 
+            showCursor: true,
+             strings: [ 'Software Developer','Software Engineer', 'Backend Developer' ] 
+           }
+           );
+        },[]);
+
 
     return (
         <div className="intro" id="intro">
@@ -17,8 +27,9 @@ export default function Intro() {
             <div className="right">
                 <div className="wrapper">
                     <h2>Hey There! I am</h2>
-                    <h1><span className="dev" ref={textRef}>Chanakya</span> Sharma</h1>
-                    <h3>Software <span className="dev" ref={textRef}>Developer</span></h3><br/><br/>
+                    <h1><span ref={nameRef}>Chanakya</span> Sharma</h1>
+                    <h3> <span className="console">$></span> <span className="dev" ref={firstRef}> </span></h3>
+                    <br/>
 
                     <p>I will be a graduate from Vancouver Island University with B.Sc. major in Computer Science by April 2022. I am looking for an oppurtunity to expand my skillset and improve my proficiency by working with a team for an extended term</p>
                     <br/>
