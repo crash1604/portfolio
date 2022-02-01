@@ -71,7 +71,6 @@ export default function Works() {
     return (
         <div className='works' id="works">
             <div className="slider" style={{transform:`translateX(-${currentSlide * 100}vw)`}}>
-
                 {proj.map((p) => (
                     <div className="container">
                         <div className="item">
@@ -82,7 +81,7 @@ export default function Works() {
                                     <span>Year {p.year}</span>
                                     <br/>
                                     <br/>
-                                    <a href="">Source code {p.code}</a>
+                                    <a href="https://www.github.com/crash1604">Source code - {p.code}</a>
                                 </div>
                             </div>
                             <div className="right">

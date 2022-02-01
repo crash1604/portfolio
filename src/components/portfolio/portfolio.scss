@@ -16,6 +16,7 @@
             flex-direction: column;
             margin: 10px;
             padding: 10px;
+            overflow: hidden;
             scrollbar-width: none; // for firefox
             &::-webkit-scrollbar{ //for other browsers
                 display: none;
