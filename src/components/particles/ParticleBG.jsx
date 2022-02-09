@@ -12,7 +12,7 @@ export default function ParticleBG() {
                             value: "#3D4954",
                         },
                         },
-                        fpsLimit: 144,
+                        fpsLimit: 60,
                         interactivity: {
                         events: {
                             onClick: {
@@ -53,22 +53,23 @@ export default function ParticleBG() {
                             width: 1,
                         },
                         collisions: {
-                            enable: true,
+                            enable: false,
                         },
                         move: {
                             direction: "none",
                             enable: true,
                             outMode: "bounce",
                             random: false,
-                            speed: 2,
+                            speed: 1,
                             straight: false,
+                            bounce: false,
                         },
                         number: {
                             density: {
                             enable: true,
                             area: 800,
                             },
-                            value: 80,
+                            value: 40,
                         },
                         opacity: {
                             value: 0.5,

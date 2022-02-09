@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
 
     h1{
         position: relative;
@@ -27,17 +28,19 @@
     }
 
     .slider {
-        height: 650px;
+        height: 750px;
         display: flex;
         position: absolute;
         left: 0;
         transition: all 1s ease-out;
+        overflow: hidden;
 
         .container {
             width: 100vw;
             display: flex;
             align-items: center;
             justify-content: center;
+            overflow: hidden;
 
             .item {
                 width: 70vw;
@@ -47,6 +50,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                overflow: hidden;
 
                 .left {
                     flex: 4;
