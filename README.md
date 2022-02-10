@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Crashed Server source code 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the source code for portfolio website for Chanakya Sharma and goes by the name CRASHED SERVER.
+The entire application is created with React JS library.
+This code is available on master branch
+while the master branch has the code in react, optimized build product is available on gh-pages branch
+This website is made strictly for desktops, personal computers, or laptops.
+This website has not been tested over the mobile platforms and hence cannot ensure a good UI/UX experience.
 
 ## Available Scripts
 
@@ -38,6 +43,13 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+### `npm run deploy`
+
+Deploy this website with github pages `gh-pages`. Runs a build script and produces an optimized build which is then deployed to the github io url and can be accessed on your assigned <githubUsername>.github.io/<nameOfTheProject>
+
+Open [https://crash1604.github.io/portfolio](https://crash1604.github.io/portfolio) to view it in your browser.
+
 
 ## Learn More
 
