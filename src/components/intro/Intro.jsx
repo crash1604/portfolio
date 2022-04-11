@@ -31,7 +31,7 @@ export default function Intro() {
                     <h3> <span className="console">$></span> <span className="dev" ref={firstRef}> </span></h3>
                     <br/>
 
-                    <p>I will be a graduate from Vancouver Island University with B.Sc. major in Computer Science by April 2022. I am looking for an oppurtunity to expand my skillset and improve my proficiency by working with a team for an extended term</p>
+                    <p>I am a graduate from Vancouver Island University with B.Sc. major in Computer Science. I am looking for an oppurtunity to expand my skillset and improve my proficiency by working with a team for an extended term</p>
                     <br/>
 
                     <h4>Future Plans for this website</h4>

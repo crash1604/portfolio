@@ -69,7 +69,7 @@ export default function ParticleBG() {
                             enable: true,
                             area: 800,
                             },
-                            value: 40,
+                            value: 30,
                         },
                         opacity: {
                             value: 0.5,
